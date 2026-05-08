@@ -1,1 +1,58 @@
-<h1>Diluna's DevOps Portfolio Live!</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diluna Jayasanka | Cloud & DevOps Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root { --primary: #00a2ed; --dark: #121212; --card-bg: #1e1e1e; --text: #e0e0e0; }
+        body { font-family: 'Inter', sans-serif; background-color: var(--dark); color: var(--text); margin: 0; line-height: 1.6; }
+        header { background: linear-gradient(135deg, #004a8a, #00a2ed); padding: 80px 20px; text-align: center; clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%); }
+        .container { max-width: 900px; margin: -40px auto 50px; padding: 20px; }
+        .card { background: var(--card-bg); padding: 30px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.5); margin-bottom: 25px; border-top: 4px solid var(--primary); }
+        h1 { font-size: 2.8em; margin: 0; color: white; }
+        h2 { color: var(--primary); display: flex; align-items: center; gap: 10px; font-size: 1.5em; }
+        .skill-list { display: flex; flex-wrap: wrap; gap: 10px; list-style: none; padding: 0; }
+        .skill-item { background: rgba(0, 162, 237, 0.1); padding: 6px 16px; border-radius: 4px; border: 1px solid var(--primary); font-size: 0.85em; color: var(--primary); }
+        footer { text-align: center; padding: 40px; color: #666; font-size: 0.85em; }
+        .highlight { color: #fff; font-weight: 600; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>DILUNA JAYASANKA HERATH</h1>
+        <p>ITUM Undergraduate | Cloud Engineering & DevOps Enthusiast</p>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <h2><i class="fas fa-user-circle"></i> Professional Summary</h2>
+            <p>Second-year <span class="highlight">Electronics & Telecommunication Engineering</span> student at ITUM. Currently gaining hands-on experience as a <span class="highlight">Technical Intern at SLT Kandy</span>, specializing in cloud infrastructure and automated deployments.</p>
+        </div>
+
+        <div class="card">
+            <h2><i class="fas fa-code-branch"></i> Core Expertise</h2>
+            <ul class="skill-list">
+                <li class="skill-item"><i class="fab fa-microsoft"></i> Microsoft Azure</li>
+                <li class="skill-item"><i class="fab fa-linux"></i> Linux Admin (AlmaLinux)</li>
+                <li class="skill-item"><i class="fas fa-network-wired"></i> Cisco Networking</li>
+                <li class="skill-item"><i class="fab fa-github"></i> CI/CD Pipelines</li>
+                <li class="skill-item"><i class="fas fa-cloud"></i> AWS & OCI</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2><i class="fas fa-rocket"></i> Key Project</h2>
+            <h3>Automated Cloud Portfolio Deployment</h3>
+            <p>Developed and deployed a highly available portfolio website using <span class="highlight">Azure Static Web Apps</span> and <span class="highlight">GitHub Actions</span>. The project demonstrates a full CI/CD pipeline where changes pushed from a Linux environment are automatically synced to the cloud.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Updated via AlmaLinux Terminal | Secured by Azure Cloud</p>
+    </footer>
+</body>
+</html>
+
+
